@@ -1,4 +1,5 @@
 class Application
+#use rackup config.ru
 #to exit run CTRL+C
   def call(env)
     resp = Rack::Response.new
