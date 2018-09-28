@@ -1,5 +1,5 @@
 class Application
-
+#to exit run CTL+C
   def call(env)
     resp = Rack::Response.new
     resp.write "Hello, my name is"
@@ -7,4 +7,3 @@ class Application
   end
 
 end
-
