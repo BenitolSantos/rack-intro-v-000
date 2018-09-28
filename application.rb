@@ -1,5 +1,5 @@
 class Application
-#to exit run CTL+C
+#to exit run CTRL+C
   def call(env)
     resp = Rack::Response.new
     resp.write "Hello, my name is"
